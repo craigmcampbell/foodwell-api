@@ -4,7 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "start": "set DEBUG=app,app:* & nodemon src/app.ts"
+    "start": "set DEBUG=app,app:* & nodemon src/app.ts",
+    "build": "tsc --build"
   },
   "author": "",
   "license": "ISC",
