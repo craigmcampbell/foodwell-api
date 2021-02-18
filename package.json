@@ -4,11 +4,11 @@
   "description": "",
   "main": "app.js",
   "engines": {
-    "node": "12.x"
+    "node": "12.18.3"
   },
   "scripts": {
-    "start": "set DEBUG=app,app:* & nodemon src/app.ts",
-    "build": "tsc --build"
+    "start": "node dist/index.js",
+    "postinstall": "tsc"
   },
   "author": "",
   "license": "ISC",
