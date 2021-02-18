@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
   res.json({ message: 'Not Implemented' });
 });
 
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 mongoose.connection
   .on('connected', function () {
